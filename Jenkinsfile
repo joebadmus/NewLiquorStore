@@ -13,7 +13,7 @@ pipeline {
         }
         stage('pull down code base'){
             steps{
-                sh 'git clone https://github.com/joebadmus/LiquorStoreServlet.git codebase'
+                sh 'git clone https://github.com/joebadmus/NewLiquorStore.git codebase'
             }
         }
 
